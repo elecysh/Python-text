@@ -1,0 +1,10 @@
+#e1.1TempConvert.py
+TempStr = input("please enter the temperature with a symbol: ")
+if TempStr[-1] in ['f','F']:
+  C = (eval(TempStr[0:-1]) - 32)/1.8
+  print("Converted Temperature value is {:.2f}C".format(C))
+elif if TempStr[-1] in ['f','F']:
+  F = 1.8*eval(TempStr[0:-1]) + 32
+  print("Converted Temperature value is {:.2f}F".format(F))
+else:
+  print("Syntax Error")
